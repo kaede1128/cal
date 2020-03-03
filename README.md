@@ -28,9 +28,9 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### Instagram
+### ![](https://en.instagram-brand.com/wp-content/themes/ig-branding/prj-ig-branding/assets/images/ig-logo-black.svg)Instagram
 
-![](https://en.instagram-brand.com/wp-content/themes/ig-branding/prj-ig-branding/assets/images/ig-logo-black.svg) [`@kaede1128`](https://www.instagram.com/kaede1128/)
+:speech_balloon:[`@kaede1128`](https://www.instagram.com/kaede1128/)
 
 ### Support or Contact
 
