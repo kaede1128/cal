@@ -1,4 +1,4 @@
-### Instagram
+# Instagram
 
 :speech_balloon:[`@kaede1128`](https://www.instagram.com/kaede1128/)
 
