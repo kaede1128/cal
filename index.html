@@ -9,13 +9,13 @@
 function Cal(){
 	var x=document.getElementById("bottle").value;
 	bottle= bottle+10;
-  document.getElementById("result").innerHTML=bottle.text();
+  document.getElementById("result").innerHTML=bottle;
 }
 </script>
 </head>
 <body>
 
-瓶子容量: <input type="text" id="bottle" onchange="Cal()">
+瓶子容量: <input type="text" id="bottle" oninput="Cal()">
   <p>12312312313: <span id="result"></span></p>
 
 </body>
