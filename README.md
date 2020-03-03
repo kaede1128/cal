@@ -1,3 +1,7 @@
+### Instagram
+
+:speech_balloon:[`@kaede1128`](https://www.instagram.com/kaede1128/)
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/kaede1128/covid19/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
@@ -28,9 +32,6 @@ Syntax highlighted code block
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
-### ![](https://en.instagram-brand.com/wp-content/themes/ig-branding/prj-ig-branding/assets/images/ig-logo-black.svg)Instagram
-
-:speech_balloon:[`@kaede1128`](https://www.instagram.com/kaede1128/)
 
 ### Support or Contact
 
