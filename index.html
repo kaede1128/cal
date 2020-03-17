@@ -1,22 +1,54 @@
 <!DOCTYPE html>
 <html>
-<head>
 <meta charset="utf-8">
-<title>稀釋比例計算器</title>
-</head>
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="favicon.ico">
+
 <head>
-<script>
-function Cal(){
-	var x=document.getElementById("bottle").value;
-	bottle= x+10;
-  document.getElementById("result").innerHTML=bottle;
-}
-</script>
+    <title>Cal%</title>
 </head>
+
 <body>
+    <form name="alcohol">
+        <div class="input">
+            成品容量:
+            <input type="number" name="A" oninput="cal()">
+        </div>
+        <div class="input">
+            B:
+            <input type="number" name="" oninput="cal()">
+            <select id="cars" name="B" onchange="cal()">
+                <option value="75">75%</option>
+                <option value="95">95%</option>
+                <option value="100">100%</option>
+            </select>
+        </div>
+        <div class="output">
+            可添加:
+            <input type="number" name="output">
+        </div>
+    </form>
+    <script type="text/javascript">
+    function cal() {
+        let numA, numB, output;
+        numA = Number(document.alcohol.A.value);
+        numB = Number(document.alcohol.B.value);
+        output = numA * numB / 73 - numA;
+        document.alcohol.output.value = RoundDown(output, 2);
+    }
 
-瓶子容量: <input type="text" id="bottle" oninput="Cal()">
-  <p>12312312313: <span id="result"></span></p>
+    function RoundDown(num, digital) {
+        let dots;
+        dots = 10;
+        for (i = 1; i < digital; i++) dots *= 10;
+        return Math.floor(num * dots) / dots
+    }
 
+    /*	
+    	var x=document.getElementById("bottle").value;
+		document.getElementById("result").innerHTML=bottle;
+	*/
+    </script>
 </body>
+
 </html>
