@@ -1,6 +1,5 @@
 # Instagram
-![Alt text](./src/img/favicon.svg)
-<img src="/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" style="max-width:40px;">
+<img src="https://github.com/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" style="max-width:40px;">
 
 :speech_balloon: [`@kaede1128`](https://www.instagram.com/kaede1128/)
 
