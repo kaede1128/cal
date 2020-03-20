@@ -1,5 +1,5 @@
 
-<img src="https://github.com/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" width="40px" /><br/><strong><span>Cal %</span></strong>
+<img src="https://github.com/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" width="40px" /><br/><a rel="nofollow" href="https://kaede1128.github.io/cal/"><strong><span>Cal %</span></strong></a>
 
 
 # Instagram
