@@ -1,5 +1,6 @@
 # Instagram
-![](https://www.instagram.com/static/images/ico/xxhdpi_launcher.png/99cf3909d459.png)
+![Alt text](./src/img/favicon.svg)
+<img src="./src/img/favicon.svg">
 
 :speech_balloon: [`@kaede1128`](https://www.instagram.com/kaede1128/)
 
