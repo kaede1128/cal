@@ -1,6 +1,5 @@
 # Instagram
-<img src="https://github.com/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" width="30px" /> 
-# Cal %
+<img src="https://github.com/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" width="30px" /> h1>Cal %</h1>
 
 :speech_balloon: [`@kaede1128`](https://www.instagram.com/kaede1128/)
 
