@@ -1,1 +1,65 @@
-html
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<link rel="apple-touch-icon-precomposed" sizes="57x57" href="src/img/apple-icon-57x57-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="src/img/apple-icon-72x72-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="src/img/apple-icon-114x114-precomposed.png" />
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="src/img/apple-icon-144x144-precomposed.png" />
+ 
+<head>
+    <title>Cal%</title>
+</head>
+ 
+<body>
+    <form name="alcohol">
+        <div class="input">
+            成品容量:
+            <input pattern="[0-9]*" type="number" name="A" oninput="cal()">
+        </div>
+        <div class="input">
+            B:
+            <input pattern="[0-9]*" type="number" name="BCustom" oninput="cal()">
+            <select id="cars" name="B" onchange="cal()">
+                <option value="75">75%</option>
+                <option value="95">95%</option>
+                <option value="100">100%</option>
+                <option value="custom">自訂</option>
+
+            </select>
+        </div>
+        <div class="output">
+            可添加:
+            <input type="number" name="output">
+        </div>
+    </form>
+    <script type="text/javascript">
+    function cal() {
+        let numA, numB, output;
+        numA = Number(document.alcohol.A.value);
+        let tempB;
+        tempB = document.alcohol.B.value;
+        if (tempB == "custom"){
+            numB = Number(document.alcohol.BCustom.value)} else {
+        numB = Number(document.alcohol.B.value);
+}
+        output = numA * numB / 73 - numA;
+        document.alcohol.output.value = RoundDown(output, 2);
+    }
+ 
+    function RoundDown(num, digital) {
+        let dots;
+        dots = 10;
+        for (i = 1; i < digital; i++) dots *= 10;
+        return Math.floor(num * dots) / dots
+    }
+ 
+    /*	
+    	var x=document.getElementById("bottle").value;
+		document.getElementById("result").innerHTML=bottle;
+	*/
+    </script>
+</body>
+ 
+</html>
+ 
