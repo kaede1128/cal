@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="zh-tw">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="stylesheet" href="asset/css/jquery-ui.min.css">- -->
+    <script src="asset/js/jquery/1.10.2/jquery.min.js"></script>
+    <script src="asset/js/jquery/1.10.4/jquery-ui.min.js"></script>
+    <script type="text/javascript" src="asset/src/data.json"></script>
+    <script type="text/javascript" src="asset/js/script.js"></script>
+    <link rel="stylesheet" href="asset/css/style.css">
+    <style>
+
+    </style>
+    <script>
+        $(function() {
+            $("ul.droptrue").sortable({
+                connectWith: "ul"
+            });
+
+            $("ul.dropfalse").sortable({
+                connectWith: "ul",
+                dropOnEmpty: false
+            });
+
+            $("#sortable1, #sortable2, #sortable3").disableSelection();
+        });
+    </script>
+
+</head>
+
+<body>
+    <span id="demo"></span>
+    <ul id="sortable1" class="droptrue">
+        <li class="ui-state-default">可被放置到..</li>
+        <li class="ui-state-default">..一个空列表中</li>
+        <li class="ui-state-default">Item 3</li>
+        <li class="ui-state-default">Item 4</li>
+        <li class="ui-state-default">Item 5</li>
+    </ul>
+
+    <ul id="sortable2" class="dropfalse">
+        <li class="ui-state-highlight">不可被放置到..</li>
+        <li class="ui-state-highlight">..一个空列表中</li>
+        <li class="ui-state-highlight">Item 3</li>
+        <li class="ui-state-highlight">Item 4</li>
+        <li class="ui-state-highlight">Item 5</li>
+    </ul>
+
+    <ul id="sortable3" class="droptrue">
+    </ul>
+
+    <br style="clear:both">
+
+
+</body>
+
+</html>
