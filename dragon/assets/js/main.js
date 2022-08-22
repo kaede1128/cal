@@ -23,6 +23,7 @@
 			window.setTimeout(function() {
 				$body.removeClass('is-preload');
 			}, 100);
+			$('a.disabled').attr("href", "javascript:void(0)");
 		});
 
 	// Touch mode.
