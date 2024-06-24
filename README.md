@@ -1,6 +1,7 @@
 
 <img src="https://github.com/kaede1128/cal/raw/master/src/img/favicon.svg?sanitize=true" width="40px" /><br/><a rel="nofollow" href="https://kaede1128.github.io/cal/"><strong><span>Cal %</span></strong></a>
 
+<a href="https://www.buymeacoffee.com/melforjob" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 40px !important;width: 145px !important;" ></a>
 
 # Instagram
 
